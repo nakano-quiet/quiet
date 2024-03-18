@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wan Winery-reco</title>
+    <meta
+      name="description"
+      content="長野の山間にある小さなオーガニックワイナリー"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/WanWineryfavicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <div id="menu" class="big-bg">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="images/WanWinerylogo1.svg"
+              alt="WanWinery home"
+          /></a>
+        </h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="menu.html">Recommend</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="menu-content wrapper">
+        <h2 class="page-title wine-menu">Recommend</h2>
+        <p class="wine-menu">
+          Wan Wineryおすすめの旬のワインリスト</br>すべてのWineが添加物、農薬フリーのオーガニックWineです
+          日々の食事で気軽に楽しんでいただけるよう</br>リーズナブルな価格で取り揃えています</p>
+      </div>
+      <!-- /.menu-content -->
+    </div>
+    <!-- /#menu -->
+
+    <div class="wrapper grid">
+      <div class="item big-box">
+        <a class="grid-gallery" href="images/wine1.jpg" data-aos="fade-up">
+          <img src="images/wine1.jpg" alt="" />
+        </a>
+        <p>摘みたて果実のフレッシュさが堪能できるPALACIO DE MENDI</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/wine2.jpg" data-aos="fade-up">
+          <img src="images/wine2.jpg" alt="" />
+        </a>
+        <p>ほのかにスパイシーで爽やかな後味のSAUVIGNON BLANC</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/wine3.jpg" data-aos="fade-up">
+          <img src="images/wine3.jpg" alt="" />
+        </a>
+        <p>重厚感のある味わいが肉料理にぴったりなGRAND BAROSSA</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/wine4.jpg" data-aos="fade-up">
+          <img src="images/wine4.jpg" alt="" />
+        </a>
+        <p>華やかで軽い口当たりが魚料理を引き立てるCHANDON</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/wine5.jpg" data-aos="fade-up">
+          <img src="images/wine5.jpg" alt="" />
+        </a>
+        <p>甘みと渋みのバランスが絶妙なNo人気No.1のJACOB'S CREEK</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/wine6.jpg" data-aos="fade-up">
+          <img src="images/wine6.jpg" alt="" />
+        </a>
+        <p>柑橘を思わせるさわやかな香りが魅力のNOBILO</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/wine7.jpg" data-aos="fade-up">
+          <img src="images/wine7.jpg" alt="" />
+        </a>
+        <p>食前酒にぴったりの軽いスパークリング BOLLINGER</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/wine8.jpg" data-aos="fade-up">
+          <img src="images/wine8.jpg" alt="" />
+        </a>
+        <p>これぞWanWineryなグレープの香り豊かな白 PINOT GRIGIO</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/wine9.jpg" data-aos="fade-up">
+          <img src="images/wine9.jpg" alt="" />
+        </a>
+        <p>幾重にも重なる赤特有の奥深い渋みが自慢のCHIANTI</p>
+      </div>
+    </div>
+    <!-- /.grid -->
+    <footer>
+      <div class="wrapper">
+        <p><small>&copy; 2024 Wan Winery</small></p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    new LuminousGallery(document.querySelectorAll(".grid-gallery"));
+    AOS.init();
+  </script>
+</html>
