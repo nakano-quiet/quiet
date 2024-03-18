@@ -84,7 +84,7 @@ img {
   background-position: center top;
 }
 #home {
-  background-image: url(../images/mainbg.jpg);
+  background-image: url(images/mainbg.jpg);
   min-height: 100vh;
 }
 .mainimage video {
@@ -101,7 +101,7 @@ img {
 /* about Top背景
 ------------------------------- */
 #about {
-  background-image: url(../images/vineyard.jpg);
+  background-image: url(images/vineyard.jpg);
   height: 270px;
   margin-bottom: 40px;
 }
@@ -111,7 +111,7 @@ img {
 /* NEWS
 ------------------------------- */
 #news {
-  background-image: url(../images/news-bg.jpg);
+  background-image: url(images/news-bg.jpg);
   height: 270px;
   margin-bottom: 40px;
 }
@@ -289,7 +289,7 @@ aside p {
 /* MENU
 ------------------------------- */
 #menu {
-  background-image: url(../images/winebarrel.jpg);
+  background-image: url(images/winebarrel.jpg);
   min-height: 100vh;
 }
 .menu-content {
@@ -330,7 +330,7 @@ aside p {
 /* CONTACT
 ------------------------------- */
 #contact {
-  background-image: url(../images/contact1.jpg);
+  background-image: url(images/contact1.jpg);
   min-height: 100vh;
 }
 /* フォーム */
